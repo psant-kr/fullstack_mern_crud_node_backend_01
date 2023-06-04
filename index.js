@@ -56,6 +56,7 @@ server.delete('/demo/:userId', async (req, res) => {
 
 })
 //Update
+// comment added
 server.put('/demo/:userId', async (req, res) => {
     const userId = req.params.userId;
     console.log(req.params.userId);
